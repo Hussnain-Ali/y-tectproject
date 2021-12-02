@@ -1,0 +1,345 @@
+.link li {
+  color: black;
+  text-decoration: none!;
+}
+Link {
+  color: black;
+}
+.circleNavbar {
+  height: 50px;
+  width: 50px;
+  border-radius: 50%;
+  background-color: #e5e4ec;
+  display: inline-block;
+  border: 1px solid black;
+}
+ul {
+  list-style-type: none;
+  margin: 3px;
+}
+ul li {
+  padding: 8px;
+  font-size: large;
+  font-weight: 600;
+}
+ul li:visited {
+  font-weight: 800;
+}
+
+.btns {
+  cursor: pointer;
+  border-radius: 12px;
+  background-color: #b8babc;
+  padding-top: 2px;
+  padding-left: 10px;
+  font-weight: 600;
+  box-shadow: 2px 2px #a3a3a3;
+  height: 5.5vh;
+}
+.btnmessage {
+  cursor: pointer;
+  border-radius: 12px;
+  background-color: #737373;
+  padding-top: 2px;
+  padding-left: 10px;
+  font-weight: 600;
+  box-shadow: 2px 2px #8b8b8b;
+  height: 6.5vh;
+}
+.smallcircles {
+  height: 30px;
+  width: 28px;
+  border-radius: 50%;
+  display: inline-block;
+  border: 0.5px solid black;
+  text-align: center;
+}
+.custombutton {
+  border-radius: 50vh;
+  background-color: #e5e4ec;
+  padding-left: 2vh;
+  padding-right: 2vh;
+  cursor: pointer;
+  text-decoration: none;
+  font-weight: 700;
+}
+.custombutton:hover {
+  border: 1px solid black;
+}
+.bordergirls {
+  color: #6b8398;
+  min-height: 10vh;
+  min-width: 10vh;
+  overflow: hidden;
+  text-align: center;
+  font-weight: 600;
+  line-height: 90px;
+  border-radius: 7px;
+  margin: 2px;
+}
+.post {
+  width: 100%;
+  height: 300px;
+}
+::placeholder {
+  color: #6b8398;
+  padding-left: 8px;
+  font-weight: 600;
+}
+.caoursel-home {
+  padding: 10%;
+}
+.search-bar {
+  border-radius: 10px;
+}
+/* .jRFJkP {
+  margin-top: -100px;
+  display: block;
+}
+.cNNJIt {
+  margin-left: 1000px;
+
+  margin-top: -100px;
+} */
+@import 'https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css';
+
+#container {
+  margin: 1rem;
+}
+
+.items {
+  margin-bottom: 1rem;
+}
+.club-box-div {
+  height: 100px;
+  width: 100%;
+  border: 1px solid black;
+  border-radius: 24px;
+  margin: 0px 0px 10px 0px;
+}
+.club-box {
+  padding: 10px 0px 0px 20px;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+.App {
+  text-align: center;
+  color: Green;
+}
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+.profile-videos {
+  width: 20rem;
+  height: 11rem;
+  border-radius: 24px;
+}
+@media (min-width: 1000px) {
+  .profile-videos {
+    width: 32rem;
+    height: 18rem;
+  }
+}
+@media (min-width: 992px) and (max-width: 1200px) {
+  .suggest-account-area {
+    padding: 15px 13px;
+  }
+}
+.suggest-account-area {
+  border: 1px solid #f5f5f5;
+  background: #fff;
+  border-radius: 10px;
+  padding: 21px 24px;
+}
+.mb-25 {
+  margin-bottom: 25px;
+}
+.suggest-account-area h4 {
+  color: #262626;
+  font-weight: 600;
+  margin-bottom: 25px;
+  font-size: 21px;
+}
+.profile-info-sidebar img {
+  border-radius: 30px;
+  margin-right: 8px;
+  width: 50px;
+  height: 50px;
+}
+img {
+  vertical-align: middle;
+  border-style: none;
+}
+.profile-info h5 {
+  color: #262626;
+  font-weight: 500;
+  margin-bottom: 0;
+}
+.club-profiler {
+  border: 1px solid black;
+  width: 100%;
+  height: fit-content;
+  border-radius: 24px;
+  margin-bottom: 10px;
+}
+.account-info {
+  justify-content: center;
+  display: flex;
+  margin-top: 20px;
+}
+.full-screen-image {
+  width: 1024px;
+  height: 768px;
+}
+.search-box {
+  border-radius: 10px;
+}
+.form-control {
+  border-radius: 24px !important;
+}
+.overflowxy {
+  background: #eee;
+  height: 768px;
+  overflow-y: auto;
+  width: 120%;
+  overflow-x: hidden;
+}
+.job-status-bar {
+  border-top: 1px solid #e5e5e5;
+}
+.job-status-bar {
+  float: left;
+  width: 100%;
+}
+.like-com {
+  float: left;
+  margin-top: 20px;
+}
+.like-com li {
+  display: inline-block;
+  margin-right: 15px;
+}
+.like-com li a {
+  color: #b2b2b2;
+  font-size: 14px;
+  font-weight: 500;
+  float: left;
+  margin-top: 6px;
+  margin-right: 5px;
+}
+img {
+  max-width: 100%;
+}
+img {
+  float: left;
+}
+.like-com li span {
+  color: #ffffff;
+  font-size: 13px;
+  width: 30px;
+  height: 30px;
+  background-color: #e44d3a;
+  line-height: 30px;
+  -webkit-border-radius: 30px;
+  -moz-border-radius: 30px;
+  -ms-border-radius: 30px;
+  -o-border-radius: 30px;
+  border-radius: 30px;
+  float: left;
+  text-align: center;
+  font-weight: 600;
+  margin-left: 3px;
+}
+.like-com li {
+  display: inline-block;
+  margin-right: 15px;
+}
+.like-com li .com {
+  position: relative;
+  top: -9px;
+}
+.like-com li a {
+  color: #b2b2b2;
+  font-size: 14px;
+  font-weight: 500;
+  float: left;
+  margin-top: 6px;
+  margin-right: 5px;
+}
+.like-com li a i {
+  /* margin-right: 2px; */
+  font-size: 14px;
+  position: relative;
+  top: 2px;
+}
+.job-status-bar > a {
+  float: right;
+  color: #b2b2b2 !important;
+  font-size: 14px;
+  margin-top: 29px;
+  cursor: pointer;
+}
+.job-status-bar > a i {
+  font-size: 14px;
+  margin-right: 7px;
+  position: relative;
+  top: 1px;
+}
+.job-status-bar {
+  border-top: 1px solid #e5e5e5;
+}
+body {
+  background: #eee;
+}
+
+.date {
+  font-size: 11px;
+}
+
+.comment-text {
+  font-size: 12px;
+}
+
+.fs-12 {
+  font-size: 12px;
+}
+
+.shadow-none {
+  box-shadow: none;
+}
+
+.name {
+  color: #007bff;
+}
+
+.cursor:hover {
+  color: blue;
+}
+
+.cursor {
+  cursor: pointer;
+}
+
+.textarea {
+  resize: none;
+}
